@@ -1,0 +1,17 @@
+C:\Users\camil\source\repos\Supermarker-mvp\bin\Debug\net6.0-windows\Supermarker-mvp.exe
+C:\Users\camil\source\repos\Supermarker-mvp\bin\Debug\net6.0-windows\Supermarker-mvp.deps.json
+C:\Users\camil\source\repos\Supermarker-mvp\bin\Debug\net6.0-windows\Supermarker-mvp.runtimeconfig.json
+C:\Users\camil\source\repos\Supermarker-mvp\bin\Debug\net6.0-windows\Supermarker-mvp.dll
+C:\Users\camil\source\repos\Supermarker-mvp\bin\Debug\net6.0-windows\Supermarker-mvp.pdb
+C:\Users\camil\source\repos\Supermarker-mvp\obj\Debug\net6.0-windows\Supermarker_mvp.Properties.Resources.resources
+C:\Users\camil\source\repos\Supermarker-mvp\obj\Debug\net6.0-windows\Supermarker_mvp.Views.PayModeView.resources
+C:\Users\camil\source\repos\Supermarker-mvp\obj\Debug\net6.0-windows\Supermarker-mvp.csproj.GenerateResource.cache
+C:\Users\camil\source\repos\Supermarker-mvp\obj\Debug\net6.0-windows\Supermarker-mvp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\camil\source\repos\Supermarker-mvp\obj\Debug\net6.0-windows\Supermarker-mvp.AssemblyInfoInputs.cache
+C:\Users\camil\source\repos\Supermarker-mvp\obj\Debug\net6.0-windows\Supermarker-mvp.AssemblyInfo.cs
+C:\Users\camil\source\repos\Supermarker-mvp\obj\Debug\net6.0-windows\Supermarker-mvp.csproj.CoreCompileInputs.cache
+C:\Users\camil\source\repos\Supermarker-mvp\obj\Debug\net6.0-windows\Supermarker-mvp.dll
+C:\Users\camil\source\repos\Supermarker-mvp\obj\Debug\net6.0-windows\refint\Supermarker-mvp.dll
+C:\Users\camil\source\repos\Supermarker-mvp\obj\Debug\net6.0-windows\Supermarker-mvp.pdb
+C:\Users\camil\source\repos\Supermarker-mvp\obj\Debug\net6.0-windows\Supermarker-mvp.genruntimeconfig.cache
+C:\Users\camil\source\repos\Supermarker-mvp\obj\Debug\net6.0-windows\ref\Supermarker-mvp.dll
