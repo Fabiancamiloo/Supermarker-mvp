@@ -16,3 +16,4 @@ C:\Users\camil\source\repos\Supermarker-mvp\obj\Debug\net6.0-windows\Supermarker
 C:\Users\camil\source\repos\Supermarker-mvp\obj\Debug\net6.0-windows\Supermarker-mvp.genruntimeconfig.cache
 C:\Users\camil\source\repos\Supermarker-mvp\obj\Debug\net6.0-windows\ref\Supermarker-mvp.dll
 C:\Users\camil\source\repos\Supermarker-mvp\obj\Debug\net6.0-windows\Supermarker-mvp.csproj.AssemblyReference.cache
+C:\Users\camil\source\repos\Supermarker-mvp\obj\Debug\net6.0-windows\Supermarker_mvp.Views.MainView.resources

@@ -55,6 +55,26 @@ namespace Supermarker_mvp.Views
         {
             DgPayMode.DataSource = payModeList;
         }
+
+        // Patron single para controlar solo una instancia del formulario
+        private static PayModeView instance;
+
+        public static PayModeView GetInstance()
+        {
+            if (instance == null || instance.IsDisposed)
+            {
+                instance = new PayModeView();
+            }
+            else
+            {
+                if (instance.WindowState == FormWindowState.Maximized)
+                {
+                    instance.WindowState = FormWindowState.Normal;
+                }
+                instance.BringToFront();
+            }
+            return instance;
+        }
         public string PayModeId
         {
             get { return TxtPayModeId.Text; }
@@ -78,7 +98,7 @@ namespace Supermarker_mvp.Views
         public bool IsEdit
         {
             get { return IsEdit; }
-            set { IsEdit = value; }
+            set { isEdit = value; }
         }
         public bool IsSuccessful
         {
@@ -88,7 +108,7 @@ namespace Supermarker_mvp.Views
         public string Message
         {
             get { return Message; }
-            set { Message = value; }
+            set { message = value; }
         }
     }
 }
