@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Supermarker_mvp.Views
+namespace Supermarker_mvp._Repositories
 {
-    internal interface IPayModeView
+    internal class BaseRepository
     {
+        protected string connectionString;
     }
 }

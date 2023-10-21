@@ -274,6 +274,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(772, 81);
             panel1.TabIndex = 3;
+            panel1.Paint += panel1_Paint;
             // 
             // PayModeView
             // 
@@ -285,6 +286,7 @@
             Controls.Add(panel1);
             Name = "PayModeView";
             Text = "Pay Mode Management";
+            Load += PayModeView_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);

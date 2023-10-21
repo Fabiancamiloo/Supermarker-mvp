@@ -15,16 +15,27 @@ namespace Supermarker_mvp.Views
         private bool isEdit;
         private bool isSuccessful;
         private bool message;
+        private TabPage tabPagePayModeDatil;
+
         public PayModeView()
         {
             InitializeComponent();
             AssociateAndRaiseViewEvents();
+
+            tabControl1.TabPages.Remove(tabPagePayModeDatil);
         }
 
         private void AssociateAndRaiseViewEvents()
         {
             BtnSearch.Click += delegate { SearchEvent?.Invoke(this, EventArgs.Empty); };
 
+            TxtSearch.KeyDown += (s, e) =>
+            {
+                if (e.KeyCode == Keys.Enter)
+                {
+                    SearchEvent?.Invoke(this, EventArgs.Empty);
+                }
+            };
 
         }
 
@@ -74,6 +85,16 @@ namespace Supermarker_mvp.Views
         public void SetPayModeListBildingSource(BindingSource payModeList)
         {
             DgPayMode.DataSource = payModeList;
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void PayModeView_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
