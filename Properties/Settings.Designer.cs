@@ -26,10 +26,14 @@ namespace Supermarker_mvp.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Supermarker;Integrated Securit" +
+            "y=True")]
         public string SqlConnetion {
             get {
                 return ((string)(this["SqlConnetion"]));
             }
         }
+
+        public string ConnectionString { get; internal set; }
     }
 }
